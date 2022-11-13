@@ -1,7 +1,8 @@
 clc; #clear cmd
-#clear all;
+clear all; #clear variables
+close all; # close all opened figures
 
-figure(1,"position",get(0,"screensize"));
+figure(1,"position",get(0,"screensize")); # fit the figure to our screensize
 
 # Unit Sample Sequence
 point = 21;
